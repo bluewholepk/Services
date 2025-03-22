@@ -8,11 +8,11 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
   
-  /* font-variation-settings:"wdth" <width>; */
+    /* font-variation-settings:"wdth" <width>; */
     
 }
 
@@ -89,7 +89,7 @@ a{
 /* Hamburger Menu */
 .menu-icon {
     display: none;
-    font-size: 30px;
+    font-size: 20px;
     cursor:pointer;
     color: blue;
 
@@ -109,7 +109,7 @@ a{
         height: 100%;
         text-align: left;
         padding: 15px;
-        box-shadow: -5px 1px 10px rgb(85, 0, 255);
+        box-shadow: -5px -2px 5px rgb(184, 148, 255);
         border-radius: 10px 0px 10px 10px;
         animation: spin 10s ease-in-out infinite;
         animation-direction:alternate;
@@ -143,7 +143,7 @@ a{
     .menu-icon {
         display: block;
         background-color: black;
-        padding: 0px 9px ;
+        padding: 0px 5px ;
         border-radius: 10px;
         box-shadow: 0px 0px 10px #1722f0;
     }
@@ -341,8 +341,12 @@ footer{
   font-size: 35px;
 }
 .img1{
-  width: 100px;
+  width: 75px;
   height: 75px;
   margin: 10px;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px rgb(0, 38, 255);
 }
 
