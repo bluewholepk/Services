@@ -1,9 +1,10 @@
 
 /* Reset default margin & padding */
 body{
-    margin: 0;
-    padding: 0;
-    background-image: radial-gradient(circle at bottom ,rgb(159, 157, 157),rgb(58, 58, 58), rgb(0, 0, 0), rgb(30, 0, 255));
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    /* background-image: radial-gradient(circle at bottom ,rgb(159, 157, 157),rgb(58, 58, 58), rgb(0, 0, 0), rgb(30, 0, 255)); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -22,6 +23,9 @@ a{
   text-decoration: none;
 
 }
+p{
+  text-align: justify;
+}
 
 .atag{
   color: white;
@@ -38,7 +42,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
     /* background: linear-gradient(to right,black,black,blue,#453ea5,black); */
     background-image: linear-gradient(to right,black,rgb(10, 10, 43),rgb(10, 10, 43),black);
     padding: 5px 20px;
@@ -313,14 +317,14 @@ footer{
 }
 
 .web{
-  margin: 0;
+  margin: 0px 20px 20px 20px;
   /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   
   font-size: 25px;
   color: white;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
   /* height: 400px; */
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
 }
 
 .logos{
@@ -328,7 +332,7 @@ footer{
   background-color: rgb(0, 0, 0);
   flex-wrap: wrap;
 
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
   /* text-align: center; */
   justify-content: center;
   /* align-items: center; */
@@ -348,5 +352,9 @@ footer{
   padding: 5px;
   border: 1px solid black;
   box-shadow: 0px 0px 10px rgb(0, 38, 255);
+}
+section{
+  margin: 0px 20px 20px 20px;
+  padding:10px 10px 10px 10px;
 }
 
